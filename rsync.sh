@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -x
 #user is the user to login to the server
-user="sargus"
+user="root"
 #server is the server you want to copy from
 server="cronus.sargus.co.za"
 #sourcepath is the path where the content is on the server
