@@ -5,7 +5,7 @@ user="root"
 #server is the server you want to copy from
 server="cronus.sargus.co.za"
 #sourcepath is the path where the content is on the server
-sourcepath="/opt/Finished/*"
+sourcepath="/root/Finished/*"
 #destpath is the path on the local server
 destpath="/media/other/"
 lock="/var/run/rsync.lock"
