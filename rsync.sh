@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 set -x
+source /root/.env
 #user is the user to login to the server
-user="root"
+#user="root"
 #server is the server you want to copy from
-server="hostname"
+#server="hostname"
 #sourcepath is the path where the content is on the server
 sourcepath="/root/Finished/*"
 #destpath is the path on the local server
