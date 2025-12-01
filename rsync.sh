@@ -27,7 +27,7 @@ log_message() {
     fi
     log_message "Starting rsync"
     while true; do
-        rsync -avz --progress --timeout=60 --partial $user@$server:"$sourcepath" $destpath
+        rsync -avz --progress --timeout=60 --partial --remove-source-files $user@$server:"$sourcepath" $destpath
             check=$?
         if [ $check = "0" ]; then
             echo "rsync completed normally"
